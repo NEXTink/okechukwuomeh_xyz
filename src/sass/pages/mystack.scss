@@ -1,0 +1,157 @@
+.my-stack{
+  //padding:5rem 10rem ;
+  &-carousel{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.cv-section{
+  margin: 0 auto;
+  width: 90%;
+  padding: 5rem;
+  //background-color: white;
+}
+.projects-area{
+  margin: 0 auto;
+  width: 90%;
+  padding: 5rem;
+  //background-color: white;
+}
+.project-view{
+  &-imgs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.project{
+  &:not(&:first-child){
+    margin: 15rem 0;
+  }
+}
+
+.stack-item{
+  width: 20rem;
+  height: 20rem;
+  //display: block;
+  text-align: center;
+  padding: 1rem;
+  background-color: $darkblue;
+  @include respond(tab-port){
+    margin: 1rem 0;
+  }
+
+}
+.stack-item-2{
+  width: 40rem;
+  height: 20rem;
+  background-color: $darkblue;
+  @include respond(tab-port){
+    margin: 1rem 0;
+  }
+}
+
+.stack-item-3{
+  width: 40rem;
+  height: 40rem;
+  background-color: $darkblue;
+  @include respond(tab-port){
+    margin: 1rem 0;
+  }
+}
+
+.stack-img{
+  width: 100%;
+}
+.stack-icon{
+  font-size: 6rem;
+  color: inherit;
+  transition: all .35s ease;
+
+  &:hover{
+    transform: rotate(45deg);
+  }
+}
+.nodejs{
+  color: #179f1b;
+  animation: circleout ease .5s;
+
+}
+.animatedCircle{
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  left: 25%;
+  margin-bottom: 2rem;
+  &,&::after{
+    padding: 1.5rem;
+
+    border-radius: 20rem;
+    display: block;
+    transition: all .8s ease ;
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    border: 2px solid currentColor;
+  }
+  &:hover:hover::after,&:hover{
+      opacity: 1;
+    border: 2px solid currentColor;
+  }
+}
+.react{
+ color: #109cfa;
+  animation: circleout ease .5s;
+
+}
+.php{
+color: #245aff;
+  animation: circleout ease .5s;
+
+}
+.vue{
+color: #22e59f;
+  animation: circleout ease .5s;
+
+}
+.js{
+  color: #e5ae22;
+  animation: circleout ease .5s;
+
+}
+.twitter{
+  fill: #09a4f8;
+  &:hover{
+    fill: #0e4394;
+  }
+}
+.git{
+  fill: #ececec;
+  &:hover{
+    fill: #c6c0c0;
+  }
+}
+.linkedIn{
+  fill: #459bf6;
+  &:hover{
+    fill: #1469e9;
+  }
+}
+.stack-icon-sm{
+  size: 10rem;
+
+  cursor: pointer;
+  margin: 1rem 0;
+
+}
+

@@ -1,0 +1,26 @@
+@mixin respond($bre){
+  @if($bre==phone){
+    @media screen and (max-width: 37.5em) {
+      @content
+    }
+  }
+  @if($bre==tab-port){
+     @media screen and (max-width: 56.25em) {
+      @content
+    }
+  }
+  @if($bre==tab-land){
+     @media screen and (max-width: 75em) {
+      @content
+    }
+  }
+  @if($bre==bigScreen){
+     @media screen and (min-width: 112.5em) {
+      @content
+    }
+  }
+
+}
+
+///em 600/16
+//900/16

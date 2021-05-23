@@ -1,0 +1,22 @@
+.contact{
+  padding: 4rem;
+ background-color: $greyBg;
+  border-radius: $br;
+  width: 40%;
+  margin: 8rem auto;
+  @include respond(tab-port){
+    width: 70%;
+  }
+  &-area{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    .la-envelope,.la-phone{
+      font-size: 4rem;
+    }
+    span{
+      font-size: 1.875rem;
+      color: #f7f7f7;
+    }
+  }
+}

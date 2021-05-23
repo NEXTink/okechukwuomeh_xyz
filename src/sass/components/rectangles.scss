@@ -1,0 +1,32 @@
+#Rectangle_35, #Rectangle_33, #Rectangle_34, #Rectangle_36,#Rectangle_37,#Rectangle_38,#Rectangle_39,#Rectangle_40,#Rectangle_41{
+  fill: $primaryColor;
+  fill-rule: evenodd;
+  //height: 4rem;
+  //width: 3rem;
+  animation: shake 3.5s linear infinite;
+}
+//#Rectangle_40{
+//  height: 4rem;
+//  animation: shake 3.5s linear infinite;
+//}
+
+
+[id^="Rec"]{
+  background-color: red;
+  &:hover{
+    fill: red;
+    background-color: red;
+  }
+}
+@keyframes shake {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(100%);
+  }
+}
+#one{
+  fill: red;
+}
+
