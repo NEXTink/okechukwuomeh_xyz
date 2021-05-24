@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from "../components/navigation";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faPhp,faJs, faReact, faNodeJs,faVuejs} from '@fortawesome/free-brands-svg-icons'
+import {faSass,faJs, faReact, faNodeJs,faVuejs} from '@fortawesome/free-brands-svg-icons'
 import SocialIconBox from "../components/socialIcons";
 // import * as Unicons from "@iconscout/react-unicons";
 
@@ -24,11 +24,11 @@ function Journey() {
                             <h2 className='h6'> NodeJs</h2>
                         </div>
                         <div className="stack-item">
-                             <div className="animatedCircle php">
-                                 <FontAwesomeIcon color='#f7f7f7' className='stack-icon' icon={faPhp} />
+                             <div className="animatedCircle sass">
+                                 <FontAwesomeIcon color='#f7f7f7' className='stack-icon' icon={faSass} />
                             </div>
 
-                            <h2 className='h6'>Php </h2>
+                            <h2 className='h6'>SASS  </h2>
                         </div>
                         <div className="stack-item">
                              <div className="animatedCircle js">

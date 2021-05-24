@@ -309,6 +309,11 @@ body {
   animation: circleout ease 0.5s;
 }
 
+.sass {
+  color: #ff247c;
+  animation: circleout ease 0.5s;
+}
+
 .vue {
   color: #22e59f;
   animation: circleout ease 0.5s;
