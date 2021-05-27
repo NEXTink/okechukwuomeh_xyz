@@ -39,7 +39,7 @@
     width: 100%;
     height: 100%;
     padding: 2rem;
-    z-index: 6;
+    z-index: 1;
     animation: slideFromLeft  cubic-bezier(1,0,0,1);
   align-items: baseline;
     &--item{
@@ -57,9 +57,11 @@
         top: 0;
         border-radius: 0;
         transform: scale(0);
+        z-index: -1;
         transition: width cubic-bezier(.17,.67,.83,.67) .2s,
                     transform .2s,
         border-radius cubic-bezier(.17,.67,.83,.67);
+
       }
       &:hover:before{
           transform: scale(1);
@@ -69,7 +71,7 @@
       &:hover &--link{
         font-weight: bold;
         color: #ece7e7;
-
+        z-index: 25;
       }
       &--link{
 

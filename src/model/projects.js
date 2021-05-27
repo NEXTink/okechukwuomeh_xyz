@@ -1,8 +1,15 @@
 import React from 'react';
 
-function  ProjectModel() {
+export default function  useProjectModel() {
    const [projects,setProjects] = React.useState([
-
+       {
+           img: require('../img/astrialawTest_home.png'),
+           title:'hello'
+       },
+       {
+           img: require('../img/deepsea1.png'),
+           title:'hello'
+       }
    ])
     return {
         projects,
@@ -10,4 +17,3 @@ function  ProjectModel() {
     }
 }
 
-export default ProjectModel;

@@ -52,12 +52,15 @@
   display: flex;
   align-items: center;
   bottom: 10%;
+  background-color: $greyBg;
+  padding: 1.6rem;
+  border-radius: 2rem;
   @include respond(tab-port){
     bottom: 2%;
 
   }
   @include respond(phone){
-    background-color: $greyBg;
+
     padding: 1rem;
   }
   p{

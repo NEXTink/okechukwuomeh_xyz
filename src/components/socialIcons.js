@@ -7,14 +7,13 @@ function SocialIconBox () {
                 <i className="vertical-line">&nbsp;</i>
                 <div className="icons-social-links">
                     <i className="">
-
                         <Unicons.UilTwitter size='3rem' className='stack-icon-sm twitter'/>
                     </i>
                     <i>
                         <Unicons.UilLinkedin size='3rem' className='stack-icon-sm linkedIn'/>
                     </i>
                     <i>
-                        <Unicons.UilGithub size='3rem' className='stack-icon-sm git'/>
+                       <a rel='noreferrer' target='_blank' href='https://github.com/NEXTink'> <Unicons.UilGithub size='3rem' className='stack-icon-sm git'/></a>
                     </i>
                 </div>
             </div>
