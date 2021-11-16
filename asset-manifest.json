@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/okechukwuomeh_xyz/static/css/main.4a32b0e5.chunk.css",
+    "main.js": "/okechukwuomeh_xyz/static/js/main.05ac4cdc.chunk.js",
+    "main.js.map": "/okechukwuomeh_xyz/static/js/main.05ac4cdc.chunk.js.map",
+    "runtime-main.js": "/okechukwuomeh_xyz/static/js/runtime-main.4dcad169.js",
+    "runtime-main.js.map": "/okechukwuomeh_xyz/static/js/runtime-main.4dcad169.js.map",
+    "static/js/2.af150027.chunk.js": "/okechukwuomeh_xyz/static/js/2.af150027.chunk.js",
+    "static/js/2.af150027.chunk.js.map": "/okechukwuomeh_xyz/static/js/2.af150027.chunk.js.map",
+    "static/js/3.aadd4bb5.chunk.js": "/okechukwuomeh_xyz/static/js/3.aadd4bb5.chunk.js",
+    "static/js/3.aadd4bb5.chunk.js.map": "/okechukwuomeh_xyz/static/js/3.aadd4bb5.chunk.js.map",
+    "index.html": "/okechukwuomeh_xyz/index.html",
+    "static/css/main.4a32b0e5.chunk.css.map": "/okechukwuomeh_xyz/static/css/main.4a32b0e5.chunk.css.map",
+    "static/js/2.af150027.chunk.js.LICENSE.txt": "/okechukwuomeh_xyz/static/js/2.af150027.chunk.js.LICENSE.txt",
+    "static/media/Register.c60279b1.png": "/okechukwuomeh_xyz/static/media/Register.c60279b1.png",
+    "static/media/astrialawTest_home.2acb01d6.png": "/okechukwuomeh_xyz/static/media/astrialawTest_home.2acb01d6.png",
+    "static/media/deepsea1.3781f01a.png": "/okechukwuomeh_xyz/static/media/deepsea1.3781f01a.png",
+    "static/media/deepsea3.3bd28650.png": "/okechukwuomeh_xyz/static/media/deepsea3.3bd28650.png",
+    "static/media/deepsea4.86b999d1.png": "/okechukwuomeh_xyz/static/media/deepsea4.86b999d1.png",
+    "static/media/deepsea5.3ea720e4.png": "/okechukwuomeh_xyz/static/media/deepsea5.3ea720e4.png",
+    "static/media/gold.eb3c832b.png": "/okechukwuomeh_xyz/static/media/gold.eb3c832b.png",
+    "static/media/goldo.a14d2b56.png": "/okechukwuomeh_xyz/static/media/goldo.a14d2b56.png",
+    "static/media/login.15468ca1.png": "/okechukwuomeh_xyz/static/media/login.15468ca1.png",
+    "static/media/logo.495450ae.png": "/okechukwuomeh_xyz/static/media/logo.495450ae.png",
+    "static/media/me.be1dbdbe.jpg": "/okechukwuomeh_xyz/static/media/me.be1dbdbe.jpg",
+    "static/media/source.css": "/okechukwuomeh_xyz/static/media/ng.da08d1a1.svg",
+    "static/media/oldAstria.f3c666e1.png": "/okechukwuomeh_xyz/static/media/oldAstria.f3c666e1.png",
+    "static/media/oldReg.24b143c4.png": "/okechukwuomeh_xyz/static/media/oldReg.24b143c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dcad169.js",
+    "static/js/2.af150027.chunk.js",
+    "static/css/main.4a32b0e5.chunk.css",
+    "static/js/main.05ac4cdc.chunk.js"
+  ]
+}
