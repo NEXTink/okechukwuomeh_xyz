@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/okechukwuomeh_xyz/static/css/main.4a32b0e5.chunk.css",
+    "main.css": "/okechukwuomeh_xyz/static/css/main.50a5a667.chunk.css",
     "main.js": "/okechukwuomeh_xyz/static/js/main.05ac4cdc.chunk.js",
     "main.js.map": "/okechukwuomeh_xyz/static/js/main.05ac4cdc.chunk.js.map",
     "runtime-main.js": "/okechukwuomeh_xyz/static/js/runtime-main.4dcad169.js",
@@ -10,7 +10,7 @@
     "static/js/3.aadd4bb5.chunk.js": "/okechukwuomeh_xyz/static/js/3.aadd4bb5.chunk.js",
     "static/js/3.aadd4bb5.chunk.js.map": "/okechukwuomeh_xyz/static/js/3.aadd4bb5.chunk.js.map",
     "index.html": "/okechukwuomeh_xyz/index.html",
-    "static/css/main.4a32b0e5.chunk.css.map": "/okechukwuomeh_xyz/static/css/main.4a32b0e5.chunk.css.map",
+    "static/css/main.50a5a667.chunk.css.map": "/okechukwuomeh_xyz/static/css/main.50a5a667.chunk.css.map",
     "static/js/2.af150027.chunk.js.LICENSE.txt": "/okechukwuomeh_xyz/static/js/2.af150027.chunk.js.LICENSE.txt",
     "static/media/Register.c60279b1.png": "/okechukwuomeh_xyz/static/media/Register.c60279b1.png",
     "static/media/astrialawTest_home.2acb01d6.png": "/okechukwuomeh_xyz/static/media/astrialawTest_home.2acb01d6.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.4dcad169.js",
     "static/js/2.af150027.chunk.js",
-    "static/css/main.4a32b0e5.chunk.css",
+    "static/css/main.50a5a667.chunk.css",
     "static/js/main.05ac4cdc.chunk.js"
   ]
 }
