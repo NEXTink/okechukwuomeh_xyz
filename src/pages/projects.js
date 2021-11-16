@@ -13,10 +13,11 @@ import goldo from  '../img/goldo.png';
 import goldo_tr from  '../img/gold.png';
 import oldAstria from  '../img/oldAstria.png';
 import oldREg from  '../img/oldReg.png';
+import ProjectItem from "../components/projectItem";
 
 function Projects() {
     return (
-        <div>
+        <div className='container'>
             <Navigation/>
             <div className="projects-area">
                 <h2 className="h3 mg-b4">
@@ -40,44 +41,8 @@ function Projects() {
                     </div>
 
 
-                    <div className="project ">
-                        <h2 className="cv-h">DeepSea</h2>
-                        <div className="project-view mg-v2">
-
-                                <div className="project_img-box">
-                                   <img className='project_img-box-img' alt="deepsea1" src={deep1}/>
-                            </div>
-                                <div className="project_img-box">
-
-                                    <img className='project_img-box-img' alt="deepsea1" src={deep3}/>
-                                </div>
-                                <div className="project_img-box">
-
-                                    <img alt='' className='project_img-box-img' src={deep4}/>
-                                </div>
-                                <div className="project_img-box">
-
-                                    <img alt='' className='project_img-box-img' src={deep5}/>
-                                </div>
-
-
-
-
-                            <div className="project-view-text">
-                                <p className="paragraph">I worked on this design and implementation for a friend. A basic dashboard design, not my best work but I enjoyed the process.</p>
-                                <h4 className="h4 mgT4">Project Stack</h4>
-                               <div className="grey-box">
-                                   <ul className="list">
-                                       <li>Html & SASS(css)</li>
-                                       <li>Javascript</li>
-                                   </ul>
-                               </div>
-                            </div>
-                        </div>
-                        <div className="btn-box mg-v2 pd-v2">
-                            <a href='https://vendar.org' rel='noreferrer' target='_blank' className="btn btn-project ">Live Project</a>
-                        </div>
-                    </div>
+                    <ProjectItem title='deep Sea' stackList={[' Html & SASS(css)' , ' Javascript']} imgList={[deep1,deep3,deep4,deep3,deep5]}/>
+                    <ProjectItem title='Goldo Trade'  stackList={[' Html & SASS(css)' , ' Javascript']} bodyText={<p className='paragraph'>    My first attempt at designing a <em className='gold-em'>Gold Trading</em> PLatform</p>} imgList={[goldo,goldo_tr]}/>
 
                     <div className="project ">
                         <h2 className="h4">Astrianovity</h2>
@@ -148,7 +113,7 @@ function Projects() {
 
                             <div className="project-view-text">
                                 <p className="paragraph">
-                                   My first attempt at designing a <em className='gold-em'>Gold Trading</em> PLatform
+
                                 </p>
                                 <h4 className="h4 mgT4">Project Stack</h4>
                                <div className="grey-box">

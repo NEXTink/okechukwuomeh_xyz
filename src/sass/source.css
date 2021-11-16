@@ -32,10 +32,33 @@ html {
 body {
   position: relative;
   background-color: #090c10;
+  background-image: url("../img/ng.svg");
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
+}
+
+.dampen {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.modal::-webkit-scrollbar {
+  width: 1em;
+}
+.modal::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+  padding: 5rem;
+  border-radius: 2rem;
+}
+.modal::-webkit-scrollbar-thumb {
+  background-color: #303030;
+  outline: none;
+  border-radius: 2rem;
 }
 
 .top-nav {
@@ -188,6 +211,43 @@ body {
 .contact-area span {
   font-size: 1.875rem;
   color: #f7f7f7;
+}
+
+.project-carousel {
+  position: relative;
+}
+.project-carousel-img {
+  width: 50rem;
+  border: 2px solid #22e59f;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  margin: 2rem 2rem;
+  transition: all 0.35s ease-in-out;
+}
+.project-carousel-img-absolute {
+  width: 100%;
+}
+
+.disp_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.project-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.project-overlay:hover .project-carousel-img {
+  border: 2px dot-dash #09a4f8;
+}
+
+.project-carousel_container {
+  position: relative;
 }
 
 .my-stack-carousel {
@@ -731,6 +791,24 @@ em {
 .btn-link {
   background-color: #09a4f8;
   color: white;
+  position: relative;
+}
+.btn-link::before {
+  content: " ";
+  width: 3px;
+  position: absolute;
+  border: 2px solid #0e4394;
+  padding: 2.5rem;
+  left: -45%;
+  top: -25%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 200rem;
+  transition: width cubic-bezier(0.17, 0.67, 0.83, 0.67) 0.2s, transform 0.2s, border-radius cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.btn-link:hover:before {
+  transform: scale(1);
+  width: 100%;
+  border-radius: 1.5rem;
 }
 .btn-link:hover, .btn-link:active {
   background-color: #1ea8f8;
@@ -773,6 +851,51 @@ em {
 }
 .btn-bordered-blue:hover, .btn-bordered-blue:active {
   color: #1ea8f8;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  backdrop-filter: blur(5px);
+  overflow-y: scroll;
+}
+.modal_top-close {
+  cursor: pointer;
+  font-size: 4.8rem;
+  color: #1ea8f8;
+  position: absolute;
+  right: 10rem;
+  top: 10rem;
+  z-index: 1200;
+}
+.modal_top-close:hover {
+  color: #1ea8f8;
+}
+.modal_body {
+  padding: 2rem;
+  width: 40%;
+  margin: 10rem auto;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(2px);
+}
+@media screen and (max-width: 37.5em) {
+  .modal_body {
+    width: 90%;
+  }
+}
+
+.zoom {
+  transition: all 0.35s cubic-bezier(0.89, 0.44, 0.32, 0.83);
+}
+.zoom:hover {
+  transform: scale(1.8);
+  transform-origin: top;
 }
 
 #Rectangle_35, #Rectangle_33, #Rectangle_34, #Rectangle_36, #Rectangle_37, #Rectangle_38, #Rectangle_39, #Rectangle_40, #Rectangle_41 {

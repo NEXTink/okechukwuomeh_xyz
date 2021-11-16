@@ -14,25 +14,28 @@
   &-link{
     background-color: $primaryColor;
     color: white;
-    //&::before{
-    //  content: " ";
-    //  height: 100%;
-    //  width: 3px;
-    //  position: absolute;
-    //  background-image: linear-gradient(45deg, rgba(19, 146, 214, 0.2), rgba(11, 59, 102, 0.91));
-    //  left: 0;
-    //  top: 0;
-    //  border-radius: 0;
-    //  transform: scale(0);
-    //  transition: width cubic-bezier(.17,.67,.83,.67) .2s,
-    //  transform .2s,
-    //  border-radius cubic-bezier(.17,.67,.83,.67);
-    //}
-    //&:hover:before{
-    //  transform: scale(1);
-    //  width: 100%;
-    //  border-radius: 1.5rem;
-    //}
+    position: relative;
+    &::before{
+      content: " ";
+      //height: 100%;
+      width: 3px;
+      position: absolute;
+      border: 2px solid #0e4394;
+      padding: 2.5rem;
+      left: -45%;
+      top: -25%;
+      transform: translate(-50%,-50%) scale(0);
+      border-radius: 200rem;
+
+      transition: width cubic-bezier(.17,.67,.83,.67) .2s,
+      transform .2s,
+      border-radius cubic-bezier(.17,.67,.83,.67);
+    }
+    &:hover:before{
+      transform: scale(1);
+      width: 100%;
+      border-radius: 1.5rem;
+    }
     &:hover,&:active{
       background-color: #1ea8f8;
     }

@@ -7,7 +7,7 @@ import SocialIconBox from "../components/socialIcons";
 
 function Journey() {
     return (
-        <div>
+        <div className='dampen'>
             <Navigation/>
             <section className="cv-section">
                 <div className="my-stack">
